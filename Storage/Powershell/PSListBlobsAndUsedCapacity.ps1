@@ -62,7 +62,7 @@ param(
     }while ($blob_continuation_token -ne $null)
     if ($total_usage -gt 0)
     {
-     Write-Host "The blobs in container $Container. Total Size = $total_usage "
+     Write-Host "The blobs in container $Container. Total Size (in bytes) = $total_usage "
     }
    
   }
