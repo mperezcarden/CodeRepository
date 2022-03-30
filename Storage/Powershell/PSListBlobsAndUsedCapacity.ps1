@@ -12,7 +12,7 @@
 ##         Set-AzContext -SubscriptionID <yoursubscription>
 ##     2. copy everything after the line "##StartCopy"
 ##     3.Execute this script in the cloud shell to register the routine.
-##     4.Execute it as Get-AllBlobs -RGName MyResourceGroup -Name MyStorageAccount -Container containerName -Directory directoryName
+##     4.Execute it as Get-AllBlobs -RGName MyResourceGroup -Name MyStorageAccount -Container containerName -Folder directoryName
 ###
 ##StartCopy
 
